@@ -1,0 +1,155 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@0,100;0,400;1,100;1,500;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family:'Creepster' ;
+    
+        }
+        body{
+            background-image: url(https://th.bing.com/th/id/R.84183cd88fb1ee1787586d0d9de30cb2?rik=c5WYN24RKREuzQ&pid=ImgRaw&r=0);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .product-image {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            float: left;
+        }
+
+        .product-info {
+            width: 50%;
+            height: 400px;
+            padding: 20px;
+            float: right;
+            color:orange;
+        }
+
+        .product-title {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            color: #f00;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .product-specs {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .product-spec {
+            width: 50%;
+            padding: 5px;
+        }
+
+        .product-spec-label {
+            font-weight: bold;
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .product-star {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .product-reviews {
+            color: #00f;
+            text-decoration: none;
+        }
+
+        .product-description {
+            margin-bottom: 10px;
+        }
+
+        .product-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: orange;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 20px;
+
+        }
+
+        .product-button:hover {
+            background-color: black;
+        }
+        img{
+            transition: transform 1,30s ease;
+        }
+        img:hover{
+            transform: scale(1.2) rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="./images/Iconcreme-Halloween-Bat.512.png" alt="Product" class="product-image">
+        <div class="product-info">
+            <h1 class="product-title">Product 4</h1>
+            <p class="product-price">400.000 VND</p>
+            <div class="product-specs">
+                <div class="product-spec">
+                    <span class="product-spec-label">CPU:</span>
+                    <span class="product-spec-value">Apple M1 chip</span>
+                </div>
+                <div class="product-spec">
+                    <span class="product-spec-label">Card đồ họa:</span>
+                    <span class="product-spec-value">256 GB SSD</span>
+                </div>
+                <div class="product-spec">
+                    <span class="product-spec-label">Màn hình:</span>
+                    <span class="product-spec-value">13.3-inch (diagonal) 2560 x 1600</span>
+                </div>
+                <div class="product-spec">
+                    <span class="product-spec-label">Cổng kết nối:</span>
+                    <span class="product-spec-value">2 x Thunderbolt 3 (USB-C), 1 x HDMI</span>
+                </div>
+            </div>
+            <div class="product-rating">
+                <img src="https://th.bing.com/th/id/OIP.hdsjKg4vTX7JPbm87euX2AHaHa?rs=1&pid=ImgDetMain" alt="Star" class="product-star">
+                <img src="https://th.bing.com/th/id/OIP.hdsjKg4vTX7JPbm87euX2AHaHa?rs=1&pid=ImgDetMain" alt="Star" class="product-star">
+                <img src="https://th.bing.com/th/id/OIP.hdsjKg4vTX7JPbm87euX2AHaHa?rs=1&pid=ImgDetMain" alt="Star" class="product-star">
+                <img src="https://th.bing.com/th/id/OIP.hdsjKg4vTX7JPbm87euX2AHaHa?rs=1&pid=ImgDetMain" alt="Star" class="product-star">
+                <img src="https://th.bing.com/th/id/OIP.hdsjKg4vTX7JPbm87euX2AHaHa?rs=1&pid=ImgDetMain" alt="Star" class="product-star">
+                <a href="#" class="product-reviews">(10 đánh giá)</a>
+            </div>
+        
+            <a href="#" class="product-button">buy now</a>
+        </div>
+    </div>
+</body>
+</html>
